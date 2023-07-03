@@ -3,7 +3,7 @@ import { Footer, Navbar } from "../../components";
 import Link from "next/link";
 
 import Image from "next/image";
-import Image1 from "..//../public/ratha.JPG";
+import Image1 from "..//../public/devotee.JPG";
 import Image2 from "..//../public/ratha1.JPG";
 import Image3 from "..//../public/ratha2.JPG";
 import Image4 from "..//../public/ratha3.JPG";
@@ -25,63 +25,6 @@ import c6 from "..//../public/c6.JPG";
 
 import { TimelineCards, TitleText, TypingText } from "../../components";
 import Gallary from "@/sections/Gallary";
-// const Ashtamangala = function () {
-//   return (
-//     <div><div className="flex tex-white md:mt-5 flex-col object-center items-center text-white "><h1 className="font-bold   ">Ashthamangala (2014-2015)</h1>
-//       <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-2 ">
-//         <div className="-m-1 flex flex-wrap md:-m-2">
-//           <div className="flex w-1/2 flex-wrap">
-//             <div className="w-1/2 p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//             <div className="w-1/2 p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//             <div className="w-full p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//           </div>
-//           <div className="flex w-1/2 flex-wrap">
-//             <div className="w-full p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//             <div className="w-1/2 p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//             <div class="w-1/2 p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//       </div>
-//     </div>
-//   );
-// };
 
 const Ratha = function () {
   return (
@@ -126,7 +69,7 @@ const Ratha = function () {
                 src={Image5}
               />
             </div>
-            <div class="w-1/2 p-1 md:p-2">
+            <div className="w-1/2 p-1 md:p-2">
               <Image
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
@@ -183,7 +126,7 @@ const MaleLinga = function () {
                 src={ml5}
               />
             </div>
-            <div class="w-1/2 p-1 md:p-2">
+            <div className="w-1/2 p-1 md:p-2">
               <Image
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
@@ -240,7 +183,7 @@ const Construction = function () {
                 src={c5}
               />
             </div>
-            <div class="w-1/2 p-1 md:p-2">
+            <div className="w-1/2 p-1 md:p-2">
               <Image
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
@@ -254,176 +197,6 @@ const Construction = function () {
   );
 };
 
-// const Foundation = function () {
-//   return (
-//     <div>
-//       <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-24 ">
-//         <div className="-m-1 flex flex-wrap md:-m-2">
-//           <div className="flex w-1/2 flex-wrap">
-//             <div className="w-1/2 p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//             <div className="w-1/2 p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//             <div className="w-full p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//           </div>
-//           <div className="flex w-1/2 flex-wrap">
-//             <div className="w-full p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//             <div className="w-1/2 p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//             <div class="w-1/2 p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// const Shadadara = function () {
-//   return (
-//     <div>
-//       <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-24 ">
-//         <div className="-m-1 flex flex-wrap md:-m-2">
-//           <div className="flex w-1/2 flex-wrap">
-//             <div className="w-1/2 p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//             <div className="w-1/2 p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//             <div className="w-full p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//           </div>
-//           <div className="flex w-1/2 flex-wrap">
-//             <div className="w-full p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//             <div className="w-1/2 p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//             <div class="w-1/2 p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// const Garbhagudi = function () {
-//   return (
-//     <div>
-//       <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-24 ">
-//         <div className="-m-1 flex flex-wrap md:-m-2">
-//           <div className="flex w-1/2 flex-wrap">
-//             <div className="w-1/2 p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//             <div className="w-1/2 p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//             <div className="w-full p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//           </div>
-//           <div className="flex w-1/2 flex-wrap">
-//             <div className="w-full p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//             <div className="w-1/2 p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//             <div class="w-1/2 p-1 md:p-2">
-//               <Image
-//                 alt="gallery"
-//                 className="block h-full w-full rounded-lg object-cover object-center"
-//                 src={Image1}
-//               />
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
 
 function Page() {
   return (
@@ -464,6 +237,3 @@ function Page() {
 
 export default Page;
 
-{
-  /*  */
-}

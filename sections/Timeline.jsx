@@ -68,7 +68,7 @@ const Timeline = () => (
                   <Image
                     alt=""
                     fill
-                    src="/ratha.JPG"
+                    src="/c4.JPG"
                     className="rounded-2xl "
                   />
                 </div>
