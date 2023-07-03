@@ -29,7 +29,7 @@ const Timeline = () => (
             className=" top-5 rounded-full object-contain  p-0 "
           />
         </div>{" "}
-        <Link
+        {/* <Link
           href="/Gallary"
           target="_blank"
           className="hover:cursor-pointer  "
@@ -38,7 +38,7 @@ const Timeline = () => (
             {" "}
             Album←
           </div>
-        </Link>
+        </Link> */}
       </motion.div>
       <motion.div
         variants={fadeIn("left", "tween", 0.2, 1)}
@@ -48,7 +48,7 @@ const Timeline = () => (
         <TitleText title={<>The timeline of renovation.</>} />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           <TimelineCards />
-          <div className="md:hidden">
+          {/* <div className="md:hidden">
             <Link
               href="/Gallary"
               target="_blank"
@@ -74,7 +74,7 @@ const Timeline = () => (
                 </div>
               </div>
             </Link>
-          </div>
+          </div> */}
         </div>
       </motion.div>
     </motion.div>
