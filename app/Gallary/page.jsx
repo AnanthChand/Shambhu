@@ -3,10 +3,10 @@ import { Footer, Navbar } from "../../components";
 import Link from "next/link";
 
 import Image from "next/image";
-import Image2 from "..//../public/ratha1.JPG";
-import Image3 from "..//../public/ratha2.JPG";
-import Image4 from "..//../public/ratha3.JPG";
-import Image5 from "..//../public/ratha4.JPG";
+// import Image2 from "..//../public/ratha1.JPG";
+// import Image3 from "..//../public/ratha2.JPG";
+// import Image4 from "..//../public/ratha3.JPG";
+// import Image5 from "..//../public/ratha4.JPG";
 
 import ml1 from "..//../public/ml1.JPG";
 import ml2 from "..//../public/ml2.JPG";
