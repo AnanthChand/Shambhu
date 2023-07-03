@@ -3,7 +3,6 @@ import { Footer, Navbar } from "../../components";
 import Link from "next/link";
 
 import Image from "next/image";
-import Image1 from "..//../public/devotee.JPG";
 import Image2 from "..//../public/ratha1.JPG";
 import Image3 from "..//../public/ratha2.JPG";
 import Image4 from "..//../public/ratha3.JPG";
@@ -36,7 +35,7 @@ const Ratha = function () {
               <Image
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src={Image1}
+                src={ml6}
               />
             </div>
             <div className="w-1/2 p-1 md:p-2">
